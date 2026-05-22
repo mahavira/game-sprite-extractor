@@ -1,7 +1,7 @@
 ---
 name: game-sprite-extractor
 description: |
-  游戏精灵提取器。当用户上传游戏画面截图，要求提取图片中的所有物件/素材，去除背景，
+  游戏精灵提取器。当用户上传游戏画面，要求提取图片中的所有物件/素材，去除背景，
   以方格排布输出透明背景精灵表（Sprite Sheet）时触发。输出的精灵表可直接用于游戏引擎
   的 Texture、Sprite、UI Texture、UI Sprite、Icon、Button、Background、Tileset、
   Layer、Character Sprite、Animation Frame、Flipbook、Particle Texture、Effect Sprite。
@@ -14,7 +14,7 @@ agent_created: true
 
 ## 概述
 
-从游戏画面截图中自动检测所有物件（角色、道具、UI 元素等），去除背景生成透明 PNG，
+从游戏画面中自动检测所有物件（角色、道具、UI 元素等），去除背景生成透明 PNG，
 并以方格方式排布为单张精灵表（Sprite Sheet），可直接导入 Godot、Unity、Phaser、
 Cocos 等游戏引擎使用。
 
